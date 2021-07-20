@@ -34,13 +34,16 @@ When the page is reloaded, the first thing that it should do is to try to get th
 
 
 8) Rows should be selectable. The first column should be a checkbox to select that specific record or multiple records or all the records. This checkbox column should be created by default for all rows.
-Delete button should be disabled by default. Only when at least on row is selected, the Delete button should be active. When clicking on this Delete button, the selected row(s) should be deleted.
+Delete button should be disabled by default. Only when at least one row is selected, the Delete button should be active. When clicking on this Delete button, the selected row(s) should be deleted. When clicking on the delete button, there should be a confirmation message.
+
+9) Table should be searchable. There should be an input on top of the table to type text and filter the table based on that text.
+
+10) Table should have a action button (gear icon) on the right most header cell. When clicking on this icon, a context menu should pop up and show options to set all the rows editable, copy the whole table to JSON or CSV, delete all rows.
+
+11) Table and buttons should look nice. Use only HTML, CSS and JavaScript. No library is allowed.
 
 
-9) Table and buttons should look nice. Use only HTML, CSS and JavaScript. No library is allowed.
-
-
-10) Push the code to GitHub on a public repository and share the link to check the code.
+12) Push the code to GitHub on a public repository and share the link to check the code.
 
 
 Check the Table specs.xlsx Excel file for more images and rules.
